@@ -1,5 +1,5 @@
 {
-  "name": "token-counter",
+  "name": "token-count",
   "version": "0.0.1",
   "description": "A package to make easier to count tokens during data analysis",
   "main": "lib/index.js",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/prijindal/token-counter.git"
+    "url": "git+https://github.com/prijindal/token-count.git"
   },
   "files": [
     "lib/**/*"
@@ -33,9 +33,9 @@
   "author": "Priyanshu Jindal",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/prijindal/token-counter/issues"
+    "url": "https://github.com/prijindal/token-count/issues"
   },
-  "homepage": "https://github.com/prijindal/token-counter#readme",
+  "homepage": "https://github.com/prijindal/token-count#readme",
   "devDependencies": {
     "@types/jest": "^29.5.11",
     "@types/node": "^20.10.5",

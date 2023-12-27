@@ -1,4 +1,4 @@
-class TokenCounter {
+class TokenCount {
   records: Record<string, number> = {};
 
   constructor(initRecords: Record<string, number> = {}) {
@@ -36,4 +36,4 @@ class TokenCounter {
   };
 }
 
-export default TokenCounter;
+export default TokenCount;

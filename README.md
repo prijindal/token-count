@@ -5,20 +5,20 @@ This package helps to count related tokens when iterating through data.
 
 Example:
 ```
-import TokenCounter from "token-counter"
+import TokenCount from "token-count"
 
-const tokenCounter = new TokenCounter();
+const TokenCount = new TokenCount();
 
-tokenCounter.inc("new-token")
+TokenCount.inc("new-token")
 
-console.log(tokenCounter) // {"new-token": 1}
+console.log(TokenCount) // {"new-token": 1}
 
-tokenCounter.inc("new-token", 2)
+TokenCount.inc("new-token", 2)
 
-console.log(tokenCounter) // {"new-token": 3}
+console.log(TokenCount) // {"new-token": 3}
 
-tokenCounter.inc("another-token")
+TokenCount.inc("another-token")
 
-console.log(tokenCounter) // {"new-token": 3, "another-token": 3}
+console.log(TokenCount) // {"new-token": 3, "another-token": 3}
 
 ```

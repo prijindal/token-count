@@ -1,16 +1,16 @@
-import TokenCounter from "../index";
+import TokenCount from "../index";
 test("ciao", () => {
-  const tokenCounter = new TokenCounter();
+  const TokenCount = new TokenCount();
 
-  tokenCounter.inc("new-token");
+  TokenCount.inc("new-token");
 
-  expect(tokenCounter.records).toEqual({ "new-token": 1 });
+  expect(TokenCount.records).toEqual({ "new-token": 1 });
 
-  tokenCounter.inc("new-token", 2);
+  TokenCount.inc("new-token", 2);
 
-  expect(tokenCounter.records).toEqual({ "new-token": 3 });
+  expect(TokenCount.records).toEqual({ "new-token": 3 });
 
-  tokenCounter.inc("another-token");
+  TokenCount.inc("another-token");
 
-  expect(tokenCounter.records).toEqual({ "new-token": 3, "another-token": 1 });
+  expect(TokenCount.records).toEqual({ "new-token": 3, "another-token": 1 });
 });
